@@ -918,7 +918,6 @@
                 },
                 keyMap: {
                     pc: {
-                        ENTER: "insertParagraph",
                         "CTRL+Z": "undo",
                         "CTRL+Y": "redo",
                         TAB: "tab",
@@ -943,11 +942,9 @@
                         "CTRL+NUM4": "formatH4",
                         "CTRL+NUM5": "formatH5",
                         "CTRL+NUM6": "formatH6",
-                        "CTRL+ENTER": "insertHorizontalRule",
                         "CTRL+K": "showLinkDialog"
                     },
                     mac: {
-                        ENTER: "insertParagraph",
                         "CMD+Z": "undo",
                         "CMD+SHIFT+Z": "redo",
                         TAB: "tab",
@@ -972,7 +969,6 @@
                         "CMD+NUM4": "formatH4",
                         "CMD+NUM5": "formatH5",
                         "CMD+NUM6": "formatH6",
-                        "CMD+ENTER": "insertHorizontalRule",
                         "CMD+K": "showLinkDialog"
                     }
                 }
