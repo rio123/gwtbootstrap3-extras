@@ -1,4 +1,4 @@
-package org.gwtbootstrap3.extras.summernote.client.ui;
+package org.gwtbootstrap3.extras.summernote.client.event;
 
 /*
  * #%L
@@ -20,24 +20,11 @@ package org.gwtbootstrap3.extras.summernote.client.ui;
  * #L%
  */
 
-import org.gwtbootstrap3.extras.summernote.client.ui.base.SummernoteBase;
+import com.google.gwt.event.shared.EventHandler;
 
 /**
  * @author godi
  */
-public class Summernote extends SummernoteBase {
-
-    public Summernote() {
-        super();
-    }
-
-    public Summernote(final int height) {
-        super();
-        setHeight(height);
-    }
-
-    public Summernote(final int height, final boolean hasFocus) {
-        this(height);
-        setHasFocus(hasFocus);
-    }
+public interface SummernoteInitializedHandler extends EventHandler {
+    void onInitialize(SummernoteInitializedEvent event);
 }
