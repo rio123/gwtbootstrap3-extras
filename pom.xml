@@ -12,6 +12,8 @@
     <name>GwtBootstrap3 Extras</name>
     <description>Extra, third-party widgets/components for GwtBootstrap3</description>
     <url>http://gwtbootstrap3.org</url>
+ 
+    <version>1.0.patch.1</version>
 
     <scm>
         <connection>scm:git:git@github.com:gwtbootstrap3/gwtbootstrap3-extras.git</connection>
